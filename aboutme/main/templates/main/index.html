@@ -1,0 +1,21 @@
+{% extends 'main/base.html' %}
+{% load static %}
+
+{% block title %}Главная страница с картинками{% endblock %}
+
+
+{% block content %}
+    <h1>Главная страница с картинками</h1>
+
+    <p>Тут я учусь работать с картинками</p>
+
+    <div class="iam">
+        <img src="{% static 'main/img/makwerik.jpg' %}" alt="i'am">
+    </div>
+
+    <span class="bibizyanki"><img src="{% static 'main/img/bibizyan.jpg' %}" alt="bibi"></span>
+
+    <a href="{% url 'text' %}"><button class="shkilla"><img src="{% static 'main/img/shkila.jpg' %}" alt="school"> <p>Тык сюда</p></button></a>
+
+
+{% endblock %}

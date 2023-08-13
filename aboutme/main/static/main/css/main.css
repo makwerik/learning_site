@@ -1,0 +1,84 @@
+body {
+    background: #4cc5e0;
+    color: #fff;
+    text-align: center;
+}
+
+aside {
+    background: #2d9cb5;
+    height: 20px;
+    border-bottom: 5px solid #2e98b0;
+    padding: 1%;
+    text-align: left;
+    font-size: 20px;
+    margin-top: -20px;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0; /* Убираем отступы по умолчанию */
+    margin-top: -5px;
+}
+
+aside li {
+    display: inline-block; /* Элементы будут располагаться в одной строке */
+    margin-right: 100px; /* Пространство между элементами */
+}
+
+aside a {
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+    color: #000; /* Цвет ссылок */
+}
+
+aside a:hover {
+    color: #00d0ff;
+    transform: scale(1.07); /* добавить стили при наведении на ссылки */
+}
+
+.iam img {
+    width: 20%;
+    float: left;
+    margin-top: 100px;
+}
+.bibizyanki img {
+    float: right;
+    width: 30%;
+    margin-left: 10px;
+}
+
+span h2 {
+    margin-top: 1px;
+    font-size: 25px;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%; /* Настройте ширину блока по вашему желанию */
+    margin-top: 200px;
+}
+
+.content {
+    padding: 20px; /* Отступы внутри блока */
+}
+
+.container2 {
+    position: absolute;
+    top: 0;
+    right: 1;
+    width: 20%; /* Настройте ширину блока по вашему желанию */
+    margin-top: 200px;
+}
+
+.container3 {
+    display: flex; /* Используем flexbox для центрирования */
+    justify-content: center; /* Горизонтальное выравнивание по центру */
+    align-items: center; /* Вертикальное выравнивание по центру */
+    width: 100%; /* Растягиваем блок на всю ширину */
+}
+
+.content3 {
+    padding: 500px; /* Отступы внутри блока */
+    text-align: center; /* Выравнивание текста внутри блока по центру */
+}
